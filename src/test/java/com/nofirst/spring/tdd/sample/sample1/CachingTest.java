@@ -36,7 +36,6 @@ public class CachingTest {
                 .willReturn(new Car("emen", "test"));
 
         service.getCarDetail("emen");
-        service.getCarDetail("emen");
 
         verify(carRepository, times(1)).findByName("emen");
     }
