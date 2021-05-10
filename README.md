@@ -39,3 +39,8 @@
 > 1.[https://medium.com/@sheikarbaz5/spring-boot-with-tdd-test-driven-development-part-i-be1b90da51e](https://medium.com/@sheikarbaz5/spring-boot-with-tdd-test-driven-development-part-i-be1b90da51e)
 >
 > 2.[https://github.com/SheikArbaz/todo-service](https://github.com/SheikArbaz/todo-service)
+
+## sample 4
+
+对 `Car` 的资源的一些管理，与 `sample 1` 相似，合并入 `sample 1`，不另开 `pakage`
+
