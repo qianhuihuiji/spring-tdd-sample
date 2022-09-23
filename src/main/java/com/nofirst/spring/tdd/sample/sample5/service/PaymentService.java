@@ -5,7 +5,10 @@ import com.nofirst.spring.tdd.sample.sample5.domain.Currency;
 import com.nofirst.spring.tdd.sample.sample5.repository.CustomerRepository;
 import com.nofirst.spring.tdd.sample.sample5.repository.PaymentRepository;
 import com.nofirst.spring.tdd.sample.sample5.request.PaymentRequest;
-import com.sun.tools.javac.util.List;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +16,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class PaymentService {
 
-    private static final List<Currency> ACCEPTED_CURRENCIES = List.of(Currency.USD, Currency.GBP);
+    private static final List<Currency> ACCEPTED_CURRENCIES = Arrays.asList(Currency.USD, Currency.GBP);
 
     private final CustomerRepository customerRepository;
 
