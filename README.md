@@ -60,5 +60,3 @@
 > 1.[课程网址](https://amigoscode.com/p/software-testing)
 >
 > 2.[Git 地址](https://github.com/amigoscode/software-testing)
-> test
-> 
